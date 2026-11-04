@@ -1,0 +1,32 @@
+/* Estilos propios de cada pantalla */
+.hero{background:var(--on-degradado);color:var(--on-superficie);padding:48px 0 52px}
+.hero h1{color:var(--on-superficie);font-size:clamp(2.2rem,6vw,3.8rem);margin-bottom:.25em}
+.hero p.sub{font-size:clamp(1.05rem,2vw,1.3rem);max-width:680px;margin-bottom:24px}
+.hero .acciones{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:0}
+@media(max-width:767px){.hero{padding:32px 0 36px}.btn--grande{font-size:1.3rem;width:100%}}
+.titulo-seccion{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.titulo-seccion h2{margin:0}
+.layout-listado{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start;padding-bottom:12px}
+@media(max-width:899px){.layout-listado{grid-template-columns:1fr}}
+.intro-listado{max-width:760px;color:var(--on-texto-suave);margin-bottom:18px}
+.intro-listado h1{color:var(--on-verde-profundo)}
+.texto-largo{max-width:760px}
+.seccion-fam{margin-bottom:30px;padding-bottom:20px;border-bottom:1px solid var(--on-linea)}
+.seccion-fam:last-child{border-bottom:0}
+.seccion-fam h2 a{text-decoration:none;color:var(--on-verde-profundo)}
+.seccion-fam h2 a:hover{text-decoration:underline}
+/* Ficha */
+.ficha{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:start;margin-bottom:28px}
+.ficha h1{font-size:clamp(1.4rem,3vw,2rem);color:var(--on-verde-profundo)}
+.ficha .meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 16px;color:var(--on-texto-suave)}
+.ficha .meta .mono{color:var(--on-texto)}
+.ficha .marcador{aspect-ratio:1}
+.tabla-tec{width:100%;border-collapse:collapse;background:var(--on-superficie);border:1px solid var(--on-linea)}
+.tabla-tec th,.tabla-tec td{text-align:left;padding:10px 14px;border-top:1px solid var(--on-linea);vertical-align:top}
+.tabla-tec tr:first-child th,.tabla-tec tr:first-child td{border-top:0}
+.tabla-tec th{width:45%;font-weight:600;color:var(--on-verde-profundo);background:var(--on-neutro)}
+.caja-consulta{background:var(--on-verde-claro);border:1px solid var(--on-linea-fuerte);border-radius:var(--on-radio);padding:20px;display:flex;flex-direction:column;gap:12px}
+.caja-consulta h2{font-size:1.2rem;margin:0;color:var(--on-verde-profundo)}
+.caja-consulta p{margin:0}
+@media(max-width:1023px){.ficha{grid-template-columns:1fr 1fr}.caja-consulta{grid-column:1/-1}}
+@media(max-width:639px){.ficha{grid-template-columns:1fr}}

@@ -165,9 +165,10 @@ a.tarjeta:hover h3{text-decoration:underline}
  .fila-principal .buscador{grid-column:1/-1;order:3;max-width:none}
  .tel-fila{display:none}
  .logo-cab img{width:110px}
- .cab-reducida .fila-principal .contenedor{grid-template-columns:auto 1fr auto;gap:8px}
+ .cab-reducida .fila-principal .contenedor{grid-template-columns:auto minmax(0,1fr) auto;gap:8px}
  .cab-reducida .fila-principal .logo-cab{grid-column:1;grid-row:1;min-width:56px}
- .cab-reducida .fila-principal .buscador{grid-column:2;grid-row:1;order:0}
+ .cab-reducida .fila-principal .buscador{grid-column:2;grid-row:1;order:0;min-width:0}
+ .cab-reducida .fila-principal .buscador input{min-width:0;width:100%}
  .cab-reducida .fila-principal .btn-menu{grid-column:3;grid-row:1}
  .cab-reducida .btn-menu span{display:none}
  .cab-reducida .btn-menu svg{flex:none;width:24px;height:24px;max-width:none}

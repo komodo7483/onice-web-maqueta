@@ -70,6 +70,9 @@
   function listado(modoBuscar){
     var cont=$('#resultados'),filt=$('#filtros'),chips=$('#chips'),base=modoBuscar?'buscar.html':'listado.html';
     var p=params(),datos;
+    var bf=document.createElement('button');bf.type='button';bf.className='btn-filtros';bf.setAttribute('aria-expanded','false');bf.setAttribute('aria-controls','filtros');bf.textContent='Filtros';
+    filt.parentNode.insertBefore(bf,filt);
+    bf.addEventListener('click',function(){var ab=filt.classList.toggle('abierto');bf.setAttribute('aria-expanded',ab);});
     cont.innerHTML=sinDatos();
     function pintar(){
       var fam=p.f?D.familia(datos,p.f):null;

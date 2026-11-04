@@ -14,7 +14,8 @@
 .fila-principal .contenedor{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding-top:12px;padding-bottom:12px}
 .logo-cab{display:block;padding:4px}
 .logo-cab img{width:132px;height:auto}
-.logo-cab .iso{display:none;width:48px}
+.logo-cab .iso{display:none;width:48px;height:auto;max-width:none}
+.logo-cab{flex:none}
 .cab-reducida .logo-cab .completo{display:none}
 .cab-reducida .logo-cab .iso{display:block}
 .cab-reducida .fila-principal .contenedor{padding-top:6px;padding-bottom:6px}
@@ -165,11 +166,22 @@ a.tarjeta:hover h3{text-decoration:underline}
  .tel-fila{display:none}
  .logo-cab img{width:110px}
  .cab-reducida .fila-principal .contenedor{grid-template-columns:auto 1fr auto;gap:8px}
- .cab-reducida .fila-principal .buscador{grid-column:auto;order:0}
+ .cab-reducida .fila-principal .logo-cab{grid-column:1;grid-row:1;min-width:56px}
+ .cab-reducida .fila-principal .buscador{grid-column:2;grid-row:1;order:0}
+ .cab-reducida .fila-principal .btn-menu{grid-column:3;grid-row:1}
  .cab-reducida .btn-menu span{display:none}
+ .cab-reducida .btn-menu svg{flex:none;width:24px;height:24px;max-width:none}
  .cab-reducida .btn-menu{padding:0 12px}
  .btn-menu{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 14px;background:var(--on-superficie);border:2px solid var(--on-verde-oscuro);border-radius:var(--on-radio);color:var(--on-verde-oscuro);font:600 1rem var(--on-texto-fuente);cursor:pointer}
  .menu-prin{display:none}
  .menu-prin.abierto{display:block}
  .menu-prin ul{flex-direction:column;padding:0}
+}
+
+/* Botón Filtros (móvil): los filtros quedan plegados */
+.btn-filtros{display:none}
+@media(max-width:899px){
+ .btn-filtros{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:48px;margin-bottom:12px;background:var(--on-superficie);border:2px solid var(--on-verde-oscuro);border-radius:var(--on-radio);color:var(--on-verde-oscuro);font:600 1rem var(--on-texto-fuente);cursor:pointer}
+ .filtros{display:none}
+ .filtros.abierto{display:flex}
 }

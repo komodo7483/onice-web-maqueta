@@ -1,0 +1,23 @@
+[
+ {
+  "id": "plazo",
+  "titulo": "Diez días que no podían ser diez",
+  "problema": "Una pieza urgente tenía un plazo de 10 días.",
+  "opciones": "Llamamos a proveedores hasta dar con una que la tuviera antes.",
+  "resultado": "La conseguimos en 3 días."
+ },
+ {
+  "id": "dos-opciones",
+  "titulo": "Dos opciones, y decides tú",
+  "problema": "Se había roto una cremallera y la máquina estaba parada.",
+  "opciones": "Una de unos 20 € llegaba el viernes; otra de unos 200 € estaba en stock.",
+  "resultado": "Con la máquina parada, al cliente le compensó la que podía montar ya."
+ },
+ {
+  "id": "telefono",
+  "titulo": "Cuando por teléfono no sale",
+  "problema": "Tras media hora al teléfono no dábamos con la avería.",
+  "opciones": "Fuimos con un par de piezas y le explicamos cómo montarlas.",
+  "resultado": "La máquina volvió a funcionar."
+ }
+]

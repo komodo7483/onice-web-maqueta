@@ -1,0 +1,928 @@
+[
+ {
+  "ref": "EJ-NEU-0001",
+  "nombre": "Cilindro ISO de doble efecto, ø32 × 50 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro ISO de doble efecto de ø32 mm y 50 mm de carrera. Sigue la norma ISO 15552, así que sustituye a otros cilindros ISO del mismo diámetro sin cambiar fijaciones. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "32 mm",
+   "Carrera": "50 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí",
+   "Norma": "ISO 15552"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0002",
+  "nombre": "Cilindro compacto de doble efecto, ø32 × 100 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø32 mm y 100 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "32 mm",
+   "Carrera": "100 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0003",
+  "nombre": "Cilindro ISO de doble efecto, ø40 × 80 mm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro ISO de doble efecto de ø40 mm y 80 mm de carrera. Sigue la norma ISO 15552, así que sustituye a otros cilindros ISO del mismo diámetro sin cambiar fijaciones. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "40 mm",
+   "Carrera": "80 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí",
+   "Norma": "ISO 15552"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0004",
+  "nombre": "Cilindro compacto de doble efecto, ø25 × 25 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø25 mm y 25 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "25 mm",
+   "Carrera": "25 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0005",
+  "nombre": "Cilindro ISO de doble efecto, ø50 × 100 mm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro ISO de doble efecto de ø50 mm y 100 mm de carrera. Sigue la norma ISO 15552, así que sustituye a otros cilindros ISO del mismo diámetro sin cambiar fijaciones. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "50 mm",
+   "Carrera": "100 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí",
+   "Norma": "ISO 15552"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0006",
+  "nombre": "Cilindro compacto de doble efecto, ø63 × 160 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø63 mm y 160 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "63 mm",
+   "Carrera": "160 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0007",
+  "nombre": "Cilindro compacto de doble efecto, ø20 × 40 mm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø20 mm y 40 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "20 mm",
+   "Carrera": "40 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0008",
+  "nombre": "Cilindro compacto de doble efecto, ø16 × 30 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø16 mm y 30 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "16 mm",
+   "Carrera": "30 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0009",
+  "nombre": "Cilindro ISO de doble efecto, ø80 × 200 mm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro ISO de doble efecto de ø80 mm y 200 mm de carrera. Sigue la norma ISO 15552, así que sustituye a otros cilindros ISO del mismo diámetro sin cambiar fijaciones. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "80 mm",
+   "Carrera": "200 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí",
+   "Norma": "ISO 15552"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0010",
+  "nombre": "Cilindro compacto de doble efecto, ø40 × 25 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø40 mm y 25 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "40 mm",
+   "Carrera": "25 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0011",
+  "nombre": "Cilindro ISO de doble efecto, ø100 × 250 mm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro ISO de doble efecto de ø100 mm y 250 mm de carrera. Sigue la norma ISO 15552, así que sustituye a otros cilindros ISO del mismo diámetro sin cambiar fijaciones. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "100 mm",
+   "Carrera": "250 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí",
+   "Norma": "ISO 15552"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0012",
+  "nombre": "Cilindro compacto de doble efecto, ø12 × 10 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "cilindros",
+  "descripcion": "Cilindro compacto de doble efecto de ø12 mm y 10 mm de carrera. Cuerpo corto para sitios con poco espacio. Con imán en el émbolo para detectores de posición.",
+  "especificaciones": {
+   "Diámetro": "12 mm",
+   "Carrera": "10 mm",
+   "Efecto": "Doble",
+   "Presión máxima": "10 bar",
+   "Imán en émbolo": "Sí"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0013",
+  "nombre": "Electroválvula 5/2 monoestable, 24 V CC, rosca 1/8\"",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 5/2 monoestable con bobina de 24 V CC y conexiones G1/8\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "5/2 monoestable",
+   "Tensión de bobina": "24 V CC",
+   "Conexión": "G 1/8\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "300 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0014",
+  "nombre": "Electroválvula 5/2 biestable, 24 V CC, rosca 1/4\"",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 5/2 biestable con bobina de 24 V CC y conexiones G1/4\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "5/2 biestable",
+   "Tensión de bobina": "24 V CC",
+   "Conexión": "G 1/4\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "450 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0015",
+  "nombre": "Electroválvula 3/2 NC, 24 V CC, rosca 1/8\"",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 3/2 NC con bobina de 24 V CC y conexiones G1/8\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "3/2 NC",
+   "Tensión de bobina": "24 V CC",
+   "Conexión": "G 1/8\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "600 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0016",
+  "nombre": "Electroválvula 5/3 centros cerrados, 230 V CA, rosca 1/4\"",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 5/3 centros cerrados con bobina de 230 V CA y conexiones G1/4\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "5/3 centros cerrados",
+   "Tensión de bobina": "230 V CA",
+   "Conexión": "G 1/4\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "750 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0017",
+  "nombre": "Electroválvula 5/2 monoestable, 230 V CA, rosca 1/4\"",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 5/2 monoestable con bobina de 230 V CA y conexiones G1/4\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "5/2 monoestable",
+   "Tensión de bobina": "230 V CA",
+   "Conexión": "G 1/4\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "900 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0018",
+  "nombre": "Electroválvula 3/2 NA, 24 V CC, rosca 1/8\"",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "electrovalvulas",
+  "descripcion": "Electroválvula 3/2 NA con bobina de 24 V CC y conexiones G1/8\". Pensada para mandar cilindros de tamaño medio; se cambia sin tocar el resto del circuito.",
+  "especificaciones": {
+   "Función": "3/2 NA",
+   "Tensión de bobina": "24 V CC",
+   "Conexión": "G 1/8\"",
+   "Presión de trabajo": "1,5 a 8 bar",
+   "Caudal nominal": "1050 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0019",
+  "nombre": "Racor instantáneo recto para tubo ø6, rosca M5",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "racores-tubo",
+  "descripcion": "Racor instantáneo recto para tubo de 6 mm de diámetro exterior y rosca M5. Se conecta empujando el tubo, sin herramientas.",
+  "especificaciones": {
+   "Tubo": "6 mm",
+   "Rosca": "M5",
+   "Forma": "Recto",
+   "Presión máxima": "10 bar",
+   "Material": "Latón niquelado"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0020",
+  "nombre": "Racor instantáneo recto para tubo ø8, rosca G1/8",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "racores-tubo",
+  "descripcion": "Racor instantáneo recto para tubo de 8 mm de diámetro exterior y rosca G1/8. Se conecta empujando el tubo, sin herramientas.",
+  "especificaciones": {
+   "Tubo": "8 mm",
+   "Rosca": "G1/8",
+   "Forma": "Recto",
+   "Presión máxima": "10 bar",
+   "Material": "Latón niquelado"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0021",
+  "nombre": "Racor instantáneo en codo para tubo ø8, rosca G1/8",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "racores-tubo",
+  "descripcion": "Racor instantáneo en codo para tubo de 8 mm de diámetro exterior y rosca G1/8. Se conecta empujando el tubo, sin herramientas.",
+  "especificaciones": {
+   "Tubo": "8 mm",
+   "Rosca": "G1/8",
+   "Forma": "En codo",
+   "Presión máxima": "10 bar",
+   "Material": "Latón niquelado"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0022",
+  "nombre": "Racor instantáneo en T para tubo ø6, rosca G1/8",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "racores-tubo",
+  "descripcion": "Racor instantáneo en T para tubo de 6 mm de diámetro exterior y rosca G1/8. Se conecta empujando el tubo, sin herramientas.",
+  "especificaciones": {
+   "Tubo": "6 mm",
+   "Rosca": "G1/8",
+   "Forma": "En t",
+   "Presión máxima": "10 bar",
+   "Material": "Latón niquelado"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0023",
+  "nombre": "Racor instantáneo recto para tubo ø10, rosca G1/4",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "racores-tubo",
+  "descripcion": "Racor instantáneo recto para tubo de 10 mm de diámetro exterior y rosca G1/4. Se conecta empujando el tubo, sin herramientas.",
+  "especificaciones": {
+   "Tubo": "10 mm",
+   "Rosca": "G1/4",
+   "Forma": "Recto",
+   "Presión máxima": "10 bar",
+   "Material": "Latón niquelado"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0024",
+  "nombre": "Filtro de aire comprimido, rosca G1/4",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "tratamiento-aire",
+  "descripcion": "Filtro para línea de aire comprimido con rosca G1/4. Con soporte de montaje en pared y purga manual.",
+  "especificaciones": {
+   "Conexión": "G1/4",
+   "Grado de filtración / rango": "5 µm",
+   "Presión máxima": "10 bar",
+   "Caudal": "1200 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0025",
+  "nombre": "Regulador de aire comprimido, rosca G1/4",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "tratamiento-aire",
+  "descripcion": "Regulador para línea de aire comprimido con rosca G1/4. Con soporte de montaje en pared y purga manual.",
+  "especificaciones": {
+   "Conexión": "G1/4",
+   "Grado de filtración / rango": "0,5 a 8,5 bar",
+   "Presión máxima": "10 bar",
+   "Caudal": "1800 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0026",
+  "nombre": "Unidad FRL de dos módulos de aire comprimido, rosca G1/2",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "tratamiento-aire",
+  "descripcion": "Unidad FRL de dos módulos para línea de aire comprimido con rosca G1/2. Con soporte de montaje en pared y purga manual.",
+  "especificaciones": {
+   "Conexión": "G1/2",
+   "Grado de filtración / rango": "5 µm",
+   "Presión máxima": "10 bar",
+   "Caudal": "2400 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0027",
+  "nombre": "Lubricador de aire comprimido, rosca G1/4",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "tratamiento-aire",
+  "descripcion": "Lubricador para línea de aire comprimido con rosca G1/4. Con soporte de montaje en pared y purga manual.",
+  "especificaciones": {
+   "Conexión": "G1/4",
+   "Grado de filtración / rango": "—",
+   "Presión máxima": "10 bar",
+   "Caudal": "3000 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0028",
+  "nombre": "Pinza paralela de dos dedos, apertura 20 mm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "pinzas",
+  "descripcion": "Pinza paralela de dos dedos con apertura total de 20 mm. Agarra piezas pequeñas con repetibilidad alta y admite detectores magnéticos.",
+  "especificaciones": {
+   "Apertura total": "20 mm",
+   "Fuerza de agarre": "90 N",
+   "Presión de trabajo": "2 a 6 bar",
+   "Masa": "0,18 kg"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0029",
+  "nombre": "Pinza angular de dos dedos, 180°",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "pinzas",
+  "descripcion": "Pinza angular de apertura de 180° para piezas de forma irregular. Cuerpo compacto de aluminio anodizado.",
+  "especificaciones": {
+   "Apertura": "180°",
+   "Fuerza de agarre": "60 N",
+   "Presión de trabajo": "2 a 7 bar",
+   "Masa": "0,25 kg"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0030",
+  "nombre": "Actuador giratorio de aleta, 90°, par 2,5 Nm",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "actuadores-giratorios",
+  "descripcion": "Actuador giratorio de aleta con ángulo de 90° y par de 2,5 Nm a 6 bar. Pensado para compuertas y volteadores ligeros.",
+  "especificaciones": {
+   "Ángulo": "90°",
+   "Par a 6 bar": "2,5 Nm",
+   "Conexión": "M5",
+   "Masa": "0,3 kg"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0031",
+  "nombre": "Actuador giratorio piñón-cremallera, 180°, par 12 Nm",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "actuadores-giratorios",
+  "descripcion": "Actuador de piñón y cremallera con giro de 180° y par de 12 Nm. Incluye amortiguación regulable en los dos finales.",
+  "especificaciones": {
+   "Ángulo": "180°",
+   "Par a 6 bar": "12 Nm",
+   "Conexión": "G1/8",
+   "Amortiguación": "Regulable"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0032",
+  "nombre": "Ventosa plana ø20 con rosca M5",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "vacio",
+  "descripcion": "Ventosa plana de goma de nitrilo, ø20 mm, con conexión M5 macho. Para piezas planas y lisas, como chapa o cartón.",
+  "especificaciones": {
+   "Diámetro": "20 mm",
+   "Material": "Nitrilo",
+   "Conexión": "M5 macho",
+   "Fuerza a −60 kPa": "1,9 N"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0033",
+  "nombre": "Eyector de vacío con silenciador, ø1,0",
+  "fabricante": "panasonic",
+  "familia": "neumatica",
+  "subfamilia": "vacio",
+  "descripcion": "Eyector de vacío con silenciador integrado y boquilla de ø1,0 mm. Genera vacío con aire comprimido, sin bomba.",
+  "especificaciones": {
+   "Boquilla": "1,0 mm",
+   "Vacío máximo": "−88 kPa",
+   "Presión de alimentación": "4 a 6 bar",
+   "Consumo de aire": "45 l/min"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0034",
+  "nombre": "Presostato electrónico 0 a 10 bar, salida PNP",
+  "fabricante": "trafag",
+  "familia": "neumatica",
+  "subfamilia": "sensores-presostatos",
+  "descripcion": "Presostato electrónico con rango de 0 a 10 bar, salida PNP y pantalla de dos colores. Se ajusta por menú.",
+  "especificaciones": {
+   "Rango": "0 a 10 bar",
+   "Salida": "PNP",
+   "Alimentación": "12 a 24 V CC",
+   "Conexión": "G1/8"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0035",
+  "nombre": "Detector magnético para ranura en T, salida PNP",
+  "fabricante": "smc",
+  "familia": "neumatica",
+  "subfamilia": "sensores-presostatos",
+  "descripcion": "Detector magnético para cilindros con ranura en T. Salida PNP con LED de estado y cable de 3 hilos de 0,3 m con M8.",
+  "especificaciones": {
+   "Salida": "PNP",
+   "Alimentación": "10 a 28 V CC",
+   "Cable": "0,3 m con M8",
+   "Protección": "IP67"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-NEU-0036",
+  "nombre": "Silenciador de escape sinterizado, rosca G1/4",
+  "fabricante": "pneumax",
+  "familia": "neumatica",
+  "subfamilia": "accesorios",
+  "descripcion": "Silenciador de escape de bronce sinterizado con rosca G1/4. Reduce el ruido del aire que sale por las válvulas.",
+  "especificaciones": {
+   "Rosca": "G1/4",
+   "Material": "Bronce sinterizado",
+   "Presión máxima": "10 bar"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0001",
+  "nombre": "Motor trifásico 0,75 kW, 4 polos, B3",
+  "fabricante": "abb",
+  "familia": "motores",
+  "subfamilia": "motores-electricos",
+  "descripcion": "Motor trifásico 0,75 kW, 4 polos, B3. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "0,75 kW",
+   "Polos": "4",
+   "Velocidad": "1.400 rpm",
+   "Forma": "B3 (patas)"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0002",
+  "nombre": "Motor trifásico 4 kW, 4 polos, B5",
+  "fabricante": "abb",
+  "familia": "motores",
+  "subfamilia": "motores-electricos",
+  "descripcion": "Motor trifásico 4 kW, 4 polos, B5. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "4 kW",
+   "Polos": "4",
+   "Velocidad": "1.440 rpm",
+   "Forma": "B5 (brida)"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0003",
+  "nombre": "Reductor de tornillo sin fin, relación 1:30",
+  "fabricante": "fuji",
+  "familia": "motores",
+  "subfamilia": "reductores",
+  "descripcion": "Reductor de tornillo sin fin, relación 1:30. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Relación": "1:30",
+   "Entrada": "ø14 mm",
+   "Salida": "ø25 mm",
+   "Par de salida": "90 Nm"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0004",
+  "nombre": "Reductor ortogonal de ejes cruzados, 1:15",
+  "fabricante": "fuji",
+  "familia": "motores",
+  "subfamilia": "reductores",
+  "descripcion": "Reductor ortogonal de ejes cruzados, 1:15. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Relación": "1:15",
+   "Entrada": "ø19 mm",
+   "Salida": "ø30 mm",
+   "Par de salida": "180 Nm"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0005",
+  "nombre": "Motorreductor de ejes paralelos 0,55 kW, 1:20",
+  "fabricante": "abb",
+  "familia": "motores",
+  "subfamilia": "motorreductores",
+  "descripcion": "Motorreductor de ejes paralelos 0,55 kW, 1:20. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "0,55 kW",
+   "Relación": "1:20",
+   "Velocidad de salida": "70 rpm",
+   "Par de salida": "72 Nm"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0006",
+  "nombre": "Motorreductor sin fin 0,37 kW, 1:40",
+  "fabricante": "fuji",
+  "familia": "motores",
+  "subfamilia": "motorreductores",
+  "descripcion": "Motorreductor sin fin 0,37 kW, 1:40. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "0,37 kW",
+   "Relación": "1:40",
+   "Velocidad de salida": "35 rpm",
+   "Par de salida": "85 Nm"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0007",
+  "nombre": "Servomotor 400 W con encoder absoluto",
+  "fabricante": "panasonic",
+  "familia": "motores",
+  "subfamilia": "servomotores",
+  "descripcion": "Servomotor 400 W con encoder absoluto. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "400 W",
+   "Velocidad nominal": "3.000 rpm",
+   "Par nominal": "1,3 Nm",
+   "Encoder": "Absoluto 23 bits"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0008",
+  "nombre": "Variador de frecuencia 2,2 kW, trifásico 400 V",
+  "fabricante": "danfoss",
+  "familia": "motores",
+  "subfamilia": "variadores",
+  "descripcion": "Variador de frecuencia 2,2 kW, trifásico 400 V. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "2,2 kW",
+   "Tensión": "3 × 400 V",
+   "Corriente de salida": "5,6 A",
+   "Protección": "IP20"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0009",
+  "nombre": "Variador de frecuencia 0,75 kW, monofásico 230 V",
+  "fabricante": "danfoss",
+  "familia": "motores",
+  "subfamilia": "variadores",
+  "descripcion": "Variador de frecuencia 0,75 kW, monofásico 230 V. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Potencia": "0,75 kW",
+   "Tensión": "1 × 230 V",
+   "Corriente de salida": "4,2 A",
+   "Protección": "IP20"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-MOT-0010",
+  "nombre": "Freno electromagnético para motor, 10 Nm",
+  "fabricante": "abb",
+  "familia": "motores",
+  "subfamilia": "accesorios-motores",
+  "descripcion": "Freno electromagnético para motor, 10 Nm. Dato de ejemplo para probar el diseño de la ficha: en la web real, esta descripción explicará para qué máquinas sirve y qué alternativas hay si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Par de frenado": "10 Nm",
+   "Tensión de bobina": "205 V CC",
+   "Montaje": "Posterior"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0001",
+  "nombre": "Switch no gestionable de 5 puertos, carril DIN",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "no-gestionables",
+  "descripcion": "Switch no gestionable de 5 puertos, carril DIN. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Puertos": "5 × RJ45",
+   "Velocidad": "10/100 Mbit/s",
+   "Alimentación": "24 V CC",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0002",
+  "nombre": "Switch no gestionable de 8 puertos, carcasa metálica",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "no-gestionables",
+  "descripcion": "Switch no gestionable de 8 puertos, carcasa metálica. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Puertos": "8 × RJ45",
+   "Velocidad": "10/100/1000 Mbit/s",
+   "Alimentación": "12 a 48 V CC",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0003",
+  "nombre": "Switch gestionable de 8 puertos con redundancia en anillo",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "gestionables",
+  "descripcion": "Switch gestionable de 8 puertos con redundancia en anillo. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Puertos": "8 × RJ45",
+   "Redundancia": "Anillo",
+   "Gestión": "Web y SNMP",
+   "Alimentación": "24 V CC"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0004",
+  "nombre": "Switch PoE de 4 puertos + 1 de subida",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "poe",
+  "descripcion": "Switch PoE de 4 puertos + 1 de subida. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Puertos PoE": "4",
+   "Potencia PoE por puerto": "30 W",
+   "Subida": "1 × RJ45 Gigabit",
+   "Alimentación": "48 V CC"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0005",
+  "nombre": "Switch con 2 puertos de fibra multimodo y 6 de cobre",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "fibra-optica",
+  "descripcion": "Switch con 2 puertos de fibra multimodo y 6 de cobre. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Cobre": "6 × RJ45",
+   "Fibra": "2 × SC multimodo",
+   "Alcance": "2 km",
+   "Alimentación": "24 V CC"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0006",
+  "nombre": "Fuente de alimentación 24 V, 5 A, carril DIN",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "fuentes-din",
+  "descripcion": "Fuente de alimentación 24 V, 5 A, carril DIN. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Salida": "24 V CC",
+   "Corriente": "5 A",
+   "Entrada": "100 a 240 V CA",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-SWI-0007",
+  "nombre": "Fuente de alimentación 24 V, 10 A, carril DIN",
+  "fabricante": "phoenix-contact",
+  "familia": "switches",
+  "subfamilia": "fuentes-din",
+  "descripcion": "Fuente de alimentación 24 V, 10 A, carril DIN. Descripción de ejemplo: aquí irá una explicación propia de cada equipo, con casos de uso y equivalentes habituales.",
+  "especificaciones": {
+   "Salida": "24 V CC",
+   "Corriente": "10 A",
+   "Entrada": "100 a 240 V CA",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0001",
+  "nombre": "Conector M12 recto, 4 polos, hembra, para cable",
+  "fabricante": "phoenix-contact",
+  "familia": "conectividad",
+  "subfamilia": "conectores-m8-m12",
+  "descripcion": "Conector M12 recto, 4 polos, hembra, para cable. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Rosca": "M12",
+   "Polos": "4",
+   "Codificación": "A",
+   "Protección": "IP67"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0002",
+  "nombre": "Conector M8 acodado, 3 polos, macho, para cable",
+  "fabricante": "lapp",
+  "familia": "conectividad",
+  "subfamilia": "conectores-m8-m12",
+  "descripcion": "Conector M8 acodado, 3 polos, macho, para cable. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Rosca": "M8",
+   "Polos": "3",
+   "Forma": "Acodado",
+   "Protección": "IP67"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0003",
+  "nombre": "Cable de control apantallado 4 × 0,75 mm², por metros",
+  "fabricante": "lapp",
+  "familia": "conectividad",
+  "subfamilia": "cables",
+  "descripcion": "Cable de control apantallado 4 × 0,75 mm², por metros. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Conductores": "4 × 0,75 mm²",
+   "Pantalla": "Sí",
+   "Tensión": "300/500 V",
+   "Cubierta": "PVC"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0004",
+  "nombre": "Borna de paso de 2,5 mm², gris",
+  "fabricante": "phoenix-contact",
+  "familia": "conectividad",
+  "subfamilia": "bornas",
+  "descripcion": "Borna de paso de 2,5 mm², gris. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Sección": "2,5 mm²",
+   "Conexión": "Tornillo",
+   "Anchura": "5,2 mm",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0005",
+  "nombre": "Router industrial para acceso remoto, 4G",
+  "fabricante": "ewon",
+  "familia": "conectividad",
+  "subfamilia": "pasarelas-acceso-remoto",
+  "descripcion": "Router industrial para acceso remoto, 4G. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Conectividad": "4G / Ethernet",
+   "Puertos LAN": "4",
+   "Alimentación": "12 a 24 V CC",
+   "Montaje": "Carril DIN"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0006",
+  "nombre": "Caja de distribución M12 de 8 salidas",
+  "fabricante": "schmersal",
+  "familia": "conectividad",
+  "subfamilia": "cajas-distribucion",
+  "descripcion": "Caja de distribución M12 de 8 salidas. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Salidas": "8 × M12",
+   "Entrada": "1 cable",
+   "Protección": "IP67",
+   "Tensión": "24 V CC"
+  },
+  "imagen": null
+ },
+ {
+  "ref": "EJ-CON-0007",
+  "nombre": "Caja de distribución M8 de 4 salidas",
+  "fabricante": "schmersal",
+  "familia": "conectividad",
+  "subfamilia": "cajas-distribucion",
+  "descripcion": "Caja de distribución M8 de 4 salidas. Descripción de ejemplo: aquí irá una explicación propia de cada artículo, para qué se usa y qué hacer si no es exactamente esta pieza.",
+  "especificaciones": {
+   "Salidas": "4 × M8",
+   "Entrada": "1 cable",
+   "Protección": "IP67",
+   "Tensión": "24 V CC"
+  },
+  "imagen": null
+ }
+]

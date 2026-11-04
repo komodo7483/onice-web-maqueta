@@ -1,0 +1,53 @@
+/* ============================================================================
+   Onice — Suministros Industriales Onice · tokens de marca
+   Fuente canónica: manual-de-marca.md (en esta misma carpeta)
+   Assets del logo: ./assets/logo/
+
+   Uso: cargar Archivo + IBM Plex Sans/Mono desde Google Fonts e incluir este
+   archivo ANTES de los estilos de la página.
+   ========================================================================== */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap'); */
+
+:root{
+  /* ── Verdes de marca ────────────────────────────────────────────────────
+     El verde ES la identidad. En un sector de rojos (RS, ABB) y azules
+     (distribuidores españoles), es el diferenciador. No se sustituye.        */
+  --on-verde:#40916C;        /* verde principal. Logo, acentos, botones */
+  --on-verde-oscuro:#2D6A4F; /* profundidad, hover, degradados */
+  --on-verde-profundo:#1B4332;/* fondos oscuros, cabeceras */
+  --on-verde-claro:#D8F3DC;  /* tintes suaves, fondos destacados */
+  --on-verde-sobre-oscuro:#5CB68B; /* verde legible sobre fondo casi negro */
+
+  /* ── Neutros ───────────────────────────────────────────────────────────── */
+  --on-neutro:#F4F4F4;       /* fondo base de página y pieza */
+  --on-superficie:#FFFFFF;   /* tarjetas, superficies elevadas */
+  --on-linea:#DBE2DC;        /* bordes y separadores */
+  --on-linea-fuerte:#C3CDC5; /* bordes marcados, cabeceras de tabla */
+
+  /* ── Texto ─────────────────────────────────────────────────────────────── */
+  --on-texto:#1B1D1B;        /* casi negro: cuerpo y titulares */
+  --on-texto-suave:#5E6B63;  /* secundario. Gris con sesgo verde, no gris puro */
+  --on-texto-tenue:#8B968F;  /* metadatos, etiquetas, placeholders */
+
+  /* ── Semánticos ────────────────────────────────────────────────────────── */
+  --on-error:#A8452B;        /* único color ajeno admitido, y solo en interfaz */
+  --on-aviso:#B07D2B;
+  --on-ok:#40916C;           /* el propio verde de marca */
+
+  /* ── Degradado de marca ────────────────────────────────────────────────── */
+  --on-degradado:linear-gradient(120deg,#2D6A4F,#1B4332);
+
+  /* ── Tipografía ────────────────────────────────────────────────────────── */
+  --on-display:'Archivo',system-ui,sans-serif;       /* titulares, peso 800-900 */
+  --on-texto-fuente:'IBM Plex Sans',system-ui,sans-serif; /* cuerpo, 400-600 */
+  --on-mono:'IBM Plex Mono',ui-monospace,monospace;  /* referencias, datos, cotas */
+
+  /* ── Geometría ─────────────────────────────────────────────────────────── */
+  --on-radio:3px;            /* radio corto: industrial, no blando */
+  --on-radio-0:0;            /* piezas impresas y rotulación: sin radio */
+
+  /* ── Logo ──────────────────────────────────────────────────────────────── */
+  --on-logo-proporcion:1.554;/* W/H de la caja del logo. No se altera nunca */
+  --on-logo-modulo:0.1429;   /* M = H/7. Aire mínimo alrededor, en fracción de H */
+}

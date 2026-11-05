@@ -94,15 +94,7 @@ a.tarjeta:hover h3{text-decoration:underline}
 .pasos li{counter-increment:paso;position:relative;padding-top:64px;font-family:var(--on-display);font-weight:900;font-size:1.25rem;line-height:1.35;color:var(--on-verde-profundo);text-wrap:balance}
 .pasos li::before{content:counter(paso);position:absolute;left:0;top:0;width:44px;height:44px;display:grid;place-items:center;background:var(--on-verde-oscuro);color:var(--on-superficie);font:900 1.3rem var(--on-display);border-radius:50%;box-shadow:0 0 0 6px var(--on-superficie)}
 @media(max-width:767px){.pasos{grid-template-columns:1fr;gap:22px}.pasos::before{left:21px;right:auto;top:22px;bottom:22px;border-top:0;border-left:2px dashed var(--on-linea-fuerte)}.pasos li{padding:8px 0 8px 64px;min-height:44px}.pasos li::before{top:0}}
-/* Losas de familia */
-.losa{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;min-height:190px;padding:20px 22px;border-radius:var(--on-radio);overflow:hidden;text-decoration:none;color:var(--on-superficie);background:var(--on-degradado);isolation:isolate;transition:transform .25s cubic-bezier(.22,1,.36,1),box-shadow .25s}
-.losa::after{content:"";position:absolute;right:16px;top:16px;width:22px;height:22px;border-top:2px solid var(--on-verde-sobre-oscuro);border-right:2px solid var(--on-verde-sobre-oscuro)}
-.losa h3{margin:0;color:var(--on-superficie);font-size:1.7rem;letter-spacing:-.01em}
-.losa p{margin:0;color:var(--on-verde-claro);font:500 .85rem var(--on-mono)}
-.losa .flecha{position:absolute;right:20px;bottom:18px;font:900 1.6rem var(--on-display);color:var(--on-verde-sobre-oscuro);transition:transform .25s cubic-bezier(.22,1,.36,1)}
-.losa:hover{color:var(--on-superficie);transform:translateY(-4px);box-shadow:0 14px 28px -14px rgba(27,67,50,.55)}
-.losa:hover .flecha{transform:translateX(6px)}
-@media(prefers-reduced-motion:reduce){.losa,.losa .flecha,.fabricante{transition:none}.losa:hover,.fabricante:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.fabricante{transition:none}.fabricante:hover{transform:none}}
 /* Bloque de contacto */
 .bloque-contacto{background:var(--on-verde-claro);border:1px solid var(--on-linea-fuerte);border-radius:var(--on-radio);padding:26px 28px;display:flex;gap:20px 32px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .bloque-contacto h2{margin:0 0 .2em;font-size:1.4rem;color:var(--on-verde-profundo)}

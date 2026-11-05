@@ -21,12 +21,11 @@
   /* ---------- Portada ---------- */
   function portada(){
     var f=$('#familias'),c=$('#casos'),m=$('#fabricantes');
-    [f,c,m].forEach(function(e){e.innerHTML=sinDatos();});
+    [f,m].forEach(function(e){e.innerHTML=sinDatos();});
     D.cargar().then(function(d){
-      f.className='rejilla rejilla--4';
-      f.innerHTML=d.familias.map(function(x){return '<a class="losa" href="familia.html?f='+x.id+'"><h3>'+O.esc(x.nombre)+'</h3><p>'+x.subfamilias.length+' subfamilias</p><span class="flecha" aria-hidden="true">→</span></a>';}).join('');
-      pintarCasos(c,d);pintarFabricantes(m,d);
-    }).catch(function(){[f,c,m].forEach(error);});
+      window.Mecanismo.pintar(f,d);
+      if(c)pintarCasos(c,d);pintarFabricantes(m,d);
+    }).catch(function(){[f,m].forEach(error);});
   }
   function pintarCasos(c,d){
     c.className='rejilla rejilla--3';

@@ -21,29 +21,10 @@
 <p class="sub">Dinos qué máquina es y qué pieza falla. Te explicamos qué opciones tienes y qué supone cada una.</p>
 <div class="acciones" data-slot="acciones-contacto" data-claro></div>
 </div>
-<figure class="ciclo">
-<svg viewBox="0 0 560 300" role="img" aria-label="Esquema: un sensor detecta, un controlador decide y un cilindro actúa">
-<g class="trazo">
-<circle cx="70" cy="140" r="34"/><circle cx="70" cy="140" r="14"/>
-<path d="M118 112a40 40 0 010 56M134 98a60 60 0 010 84" class="ondas"/>
-<rect x="228" y="90" width="104" height="100" rx="3"/>
-<path d="M248 90v-14M280 90v-14M312 90v-14M248 190v14M280 190v14M312 190v14"/>
-<circle cx="256" cy="128" r="5" class="led"/><circle cx="280" cy="128" r="5"/><circle cx="304" cy="128" r="5"/>
-<path d="M252 160h56"/>
-<rect x="426" y="115" width="84" height="50" rx="3"/><path d="M426 115v-10h-12v60h12v-10"/>
-<g class="vastago"><path d="M510 140h30"/><path d="M540 126v28"/></g>
-</g>
-<path class="linea" d="M104 140H228M332 140H426"/>
-<path class="pulso p1" pathLength="100" d="M104 140H228"/>
-<path class="pulso p2" pathLength="100" d="M332 140H426"/>
-<g class="rotulos"><text x="70" y="230" text-anchor="middle">Detectamos</text><text x="280" y="244" text-anchor="middle">Controlamos</text><text x="478" y="230" text-anchor="middle">Actuamos</text></g>
-</svg>
-</figure>
+<div id="familias"></div>
 </div></section>
-<section class="seccion"><div class="contenedor"><div class="titulo-seccion"><h2>Familias</h2><a href="categorias.html">Ver todas las categorías</a></div><div id="familias"></div></div></section>
 <section class="seccion seccion--clara"><div class="contenedor"><h2>Cómo trabajamos</h2>
 <ol class="pasos"><li>Nos cuentas qué pasa</li><li>Te damos las opciones, también la que no es la más cara</li><li>Decides con toda la información</li></ol></div></section>
-<section class="seccion"><div class="contenedor"><div class="titulo-seccion"><h2>Casos reales</h2><a href="casos.html">Ver todos</a></div><div id="casos"></div></div></section>
 <section class="seccion seccion--clara"><div class="contenedor"><div class="titulo-seccion"><h2>Fabricantes</h2><a href="fabricantes.html">Ver todos</a></div><div id="fabricantes"></div></div></section>
 <section class="seccion"><div class="contenedor"><h2>Quién hay detrás</h2><div class="detras"><div class="marcador marcador--cuadrado" role="img" aria-label="Foto pendiente: Emilio">Foto pendiente: Emilio</div><div class="texto-largo"><p><strong>Emilio Sampedro</strong>, ingeniero técnico industrial, lleva <span class="mono">[más de 20 años, por confirmar]</span> resolviendo piezas que no aparecen en ningún catálogo.</p><p>Texto de ejemplo: lo revisa Emilio.</p></div></div></div></section>
 <section class="seccion"><div class="contenedor"><div data-slot="contacto" data-titulo="¿Hablamos?" data-texto="Cuéntanos qué máquina es y qué necesitas. Por teléfono o por correo."></div></div></section>
@@ -51,6 +32,7 @@
 <div id="pie"></div>
 <script src="js/datos.js"></script>
 <script src="js/plantilla.js"></script>
+<script src="js/mecanismo.js"></script>
 <script src="js/catalogo.js"></script>
 <script>document.addEventListener('DOMContentLoaded',Catalogo.portada)</script>
 </body></html>

@@ -9,6 +9,10 @@
 html{-webkit-text-size-adjust:100%;scroll-padding-top:90px}
 body{margin:0;background:var(--on-neutro);color:var(--on-texto);font:400 16px/1.55 var(--on-texto-fuente);min-height:100vh;display:flex;flex-direction:column}
 main{flex:1}
+::selection{background:var(--on-verde-oscuro);color:var(--on-superficie)}
+input{caret-color:var(--on-verde-oscuro)}
+html{scrollbar-color:var(--on-verde) var(--on-neutro)}
+.tabla-art td,.tabla-tec td,.paginacion{font-variant-numeric:tabular-nums}
 img,svg{max-width:100%;display:block}
 h1,h2,h3{font-family:var(--on-display);font-weight:900;line-height:1.12;margin:0 0 .5em;color:var(--on-texto)}
 h1{font-size:clamp(1.8rem,4.2vw,2.8rem)}

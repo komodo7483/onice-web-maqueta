@@ -10,7 +10,8 @@
 .barra-sup .lema{font-family:var(--on-display);font-weight:900;font-size:.85rem;letter-spacing:.02em}
 /* Fila principal (queda fija al bajar) */
 #cabecera,#pie{display:contents}
-.fila-principal{position:sticky;top:0;z-index:50;background:var(--on-superficie);border-bottom:1px solid var(--on-linea)}
+.fila-wrap{position:sticky;top:0;z-index:50;pointer-events:none}
+.fila-principal{pointer-events:auto;background:var(--on-superficie);border-bottom:1px solid var(--on-linea)}
 .fila-principal .contenedor{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding-top:12px;padding-bottom:12px}
 .logo-cab{display:block;padding:4px}
 .logo-cab img{width:132px;height:auto}
@@ -36,7 +37,8 @@
 .menu-prin{background:var(--on-verde-oscuro)}
 .menu-prin ul{list-style:none;margin:0 auto;padding:0 20px;max-width:1200px;display:flex;flex-wrap:wrap}
 .menu-prin a{display:flex;align-items:center;min-height:46px;padding:0 18px;color:var(--on-superficie);text-decoration:none;font-weight:600}
-.menu-prin a:hover,.menu-prin a[aria-current="page"]{background:var(--on-verde-profundo);color:var(--on-superficie)}
+.menu-prin a{border-bottom:3px solid transparent}
+.menu-prin a:hover,.menu-prin a[aria-current="page"]{background:var(--on-verde-profundo);color:var(--on-superficie);border-bottom-color:var(--on-verde-sobre-oscuro)}
 /* Botones */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:var(--on-radio);font:600 1rem var(--on-texto-fuente);text-decoration:none;cursor:pointer;border:2px solid var(--on-verde-oscuro);background:var(--on-verde-oscuro);color:var(--on-superficie)}
 .btn:hover{background:var(--on-verde-profundo);border-color:var(--on-verde-profundo);color:var(--on-superficie)}
@@ -54,7 +56,7 @@
 .migas li+li::before{content:"›";margin:0 8px;color:var(--on-texto-tenue)}
 .migas a{display:inline-flex;align-items:center;min-height:32px}
 /* Banda de título */
-.banda{background:var(--on-degradado);color:var(--on-superficie);padding:36px 0}
+.banda{background:var(--on-degradado);color:var(--on-superficie);padding:40px 0}
 .banda h1{color:var(--on-superficie);margin-bottom:.3em}
 .banda p{max-width:720px;margin:0;font-size:1.1rem}
 /* Marcador de imagen */
@@ -76,19 +78,24 @@ a.tarjeta:hover h3{text-decoration:underline}
 .tarjeta .marcador{border-radius:0;border-width:0 0 1px;aspect-ratio:16/8}
 .tarjeta--familia h3{font-size:1.3rem}
 .tarjeta .mas{margin-top:auto;padding-top:10px;font-weight:600;color:var(--on-verde-oscuro)}
-.tarjeta--caso{border-left:4px solid var(--on-verde)}
-.tarjeta--caso dl{margin:6px 0 0;font-size:.92rem}
+.tarjeta--caso{border-top:3px solid var(--on-verde)}
+.tarjeta--caso h3{font-size:1.25rem}
+.tarjeta--caso .resultado{margin:auto -18px -18px;padding:14px 18px;background:var(--on-verde-claro);color:var(--on-verde-profundo);font-weight:600;font-size:1rem}
+
+.tarjeta--caso dl{margin:6px 0 16px;font-size:.92rem}
 .tarjeta--caso dt{font-weight:600;color:var(--on-verde-profundo);margin-top:6px}
 .tarjeta--caso dd{margin:0;color:var(--on-texto-suave)}
 /* Fabricantes */
 .fabricantes{display:flex;flex-wrap:wrap;gap:10px}
-.fabricante{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--on-linea-fuerte);background:var(--on-superficie);border-radius:var(--on-radio);font-family:var(--on-display);font-weight:900;color:var(--on-verde-profundo);text-decoration:none}
-.fabricante:hover{background:var(--on-verde-claro);color:var(--on-verde-profundo)}
-/* Pasos */
-.pasos{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:paso}
-.pasos li{counter-increment:paso;background:var(--on-superficie);border:1px solid var(--on-linea);border-radius:var(--on-radio);padding:18px 20px 18px 76px;position:relative;font-weight:600;min-height:92px;display:flex;align-items:center}
-.pasos li::before{content:counter(paso);position:absolute;left:18px;top:50%;transform:translateY(-50%);width:42px;height:42px;display:grid;place-items:center;background:var(--on-verde-oscuro);color:var(--on-superficie);font:900 1.3rem var(--on-display);border-radius:var(--on-radio)}
-@media(max-width:767px){.pasos{grid-template-columns:1fr}}
+.fabricante{display:inline-flex;align-items:center;min-height:56px;padding:0 26px;font-size:1.15rem;transition:background .2s,border-color .2s,transform .2s;border:1px solid var(--on-linea-fuerte);background:var(--on-superficie);border-radius:var(--on-radio);font-family:var(--on-display);font-weight:900;color:var(--on-verde-profundo);text-decoration:none}
+.fabricante:hover{background:var(--on-verde-claro);border-color:var(--on-verde);color:var(--on-verde-profundo);transform:translateY(-2px)}
+/* Pasos: circuito con nodos */
+.pasos{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:paso;position:relative}
+.pasos::before{content:"";position:absolute;left:21px;right:21px;top:21px;border-top:2px dashed var(--on-linea-fuerte)}
+.pasos li{counter-increment:paso;position:relative;padding-top:64px;font-family:var(--on-display);font-weight:900;font-size:1.25rem;line-height:1.35;color:var(--on-verde-profundo);text-wrap:balance}
+.pasos li::before{content:counter(paso);position:absolute;left:0;top:0;width:44px;height:44px;display:grid;place-items:center;background:var(--on-verde-oscuro);color:var(--on-superficie);font:900 1.3rem var(--on-display);border-radius:50%;box-shadow:0 0 0 6px var(--on-superficie)}
+@media(max-width:767px){.pasos{grid-template-columns:1fr;gap:22px}.pasos::before{left:21px;right:auto;top:22px;bottom:22px;border-top:0;border-left:2px dashed var(--on-linea-fuerte)}.pasos li{padding:8px 0 8px 64px;min-height:44px}.pasos li::before{top:0}}
+@media(prefers-reduced-motion:reduce){.fabricante{transition:none}.fabricante:hover{transform:none}}
 /* Bloque de contacto */
 .bloque-contacto{background:var(--on-verde-claro);border:1px solid var(--on-linea-fuerte);border-radius:var(--on-radio);padding:26px 28px;display:flex;gap:20px 32px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .bloque-contacto h2{margin:0 0 .2em;font-size:1.4rem;color:var(--on-verde-profundo)}

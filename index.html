@@ -15,15 +15,16 @@
 <body>
 <div id="cabecera"></div>
 <main id="contenido">
-<section class="hero sobre-oscuro"><div class="contenedor">
-<h1>¿Máquina parada? Llama.</h1>
+<section class="hero sobre-oscuro"><div class="contenedor hero-rejilla">
+<div class="hero-texto">
+<h1>¿Máquina parada? <span class="llama">Llama.</span></h1>
 <p class="sub">Dinos qué máquina es y qué pieza falla. Te explicamos qué opciones tienes y qué supone cada una.</p>
 <div class="acciones" data-slot="acciones-contacto" data-claro></div>
+</div>
+<div id="familias"></div>
 </div></section>
-<section class="seccion"><div class="contenedor"><div class="titulo-seccion"><h2>Familias</h2><a href="categorias.html">Ver todas las categorías</a></div><div id="familias"></div></div></section>
 <section class="seccion seccion--clara"><div class="contenedor"><h2>Cómo trabajamos</h2>
 <ol class="pasos"><li>Nos cuentas qué pasa</li><li>Te damos las opciones, también la que no es la más cara</li><li>Decides con toda la información</li></ol></div></section>
-<section class="seccion"><div class="contenedor"><div class="titulo-seccion"><h2>Casos reales</h2><a href="casos.html">Ver todos</a></div><div id="casos"></div></div></section>
 <section class="seccion seccion--clara"><div class="contenedor"><div class="titulo-seccion"><h2>Fabricantes</h2><a href="fabricantes.html">Ver todos</a></div><div id="fabricantes"></div></div></section>
 <section class="seccion"><div class="contenedor"><h2>Quién hay detrás</h2><div class="detras"><div class="marcador marcador--cuadrado" role="img" aria-label="Foto pendiente: Emilio">Foto pendiente: Emilio</div><div class="texto-largo"><p><strong>Emilio Sampedro</strong>, ingeniero técnico industrial, lleva <span class="mono">[más de 20 años, por confirmar]</span> resolviendo piezas que no aparecen en ningún catálogo.</p><p>Texto de ejemplo: lo revisa Emilio.</p></div></div></div></section>
 <section class="seccion"><div class="contenedor"><div data-slot="contacto" data-titulo="¿Hablamos?" data-texto="Cuéntanos qué máquina es y qué necesitas. Por teléfono o por correo."></div></div></section>
@@ -31,6 +32,7 @@
 <div id="pie"></div>
 <script src="js/datos.js"></script>
 <script src="js/plantilla.js"></script>
+<script src="js/mecanismo.js"></script>
 <script src="js/catalogo.js"></script>
 <script>document.addEventListener('DOMContentLoaded',Catalogo.portada)</script>
 </body></html>

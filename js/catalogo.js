@@ -21,16 +21,15 @@
   /* ---------- Portada ---------- */
   function portada(){
     var f=$('#familias'),c=$('#casos'),m=$('#fabricantes');
-    [f,c,m].forEach(function(e){e.innerHTML=sinDatos();});
+    [f,m].forEach(function(e){e.innerHTML=sinDatos();});
     D.cargar().then(function(d){
-      f.className='rejilla rejilla--4';
-      f.innerHTML=d.familias.map(function(x){return '<a class="tarjeta tarjeta--familia" href="familia.html?f='+x.id+'"><div class="marcador" role="img" aria-label="Imagen de ejemplo: '+O.esc(x.nombre)+'">Imagen: '+O.esc(x.nombre)+'</div><div class="cuerpo"><h3>'+O.esc(x.nombre)+'</h3><p>'+x.subfamilias.length+' subfamilias</p><span class="mas">Ver familia →</span></div></a>';}).join('');
-      pintarCasos(c,d);pintarFabricantes(m,d);
-    }).catch(function(){[f,c,m].forEach(error);});
+      window.Mecanismo.pintar(f,d);
+      if(c)pintarCasos(c,d);pintarFabricantes(m,d);
+    }).catch(function(){[f,m].forEach(error);});
   }
   function pintarCasos(c,d){
     c.className='rejilla rejilla--3';
-    c.innerHTML=d.casos.map(function(x){return '<article class="tarjeta tarjeta--caso"><div class="cuerpo"><h3>'+O.esc(x.titulo)+'</h3><dl><dt>Problema</dt><dd>'+O.esc(x.problema)+'</dd><dt>Opciones</dt><dd>'+O.esc(x.opciones)+'</dd><dt>Resultado</dt><dd>'+O.esc(x.resultado)+'</dd></dl></div></article>';}).join('');
+    c.innerHTML=d.casos.map(function(x){return '<article class="tarjeta tarjeta--caso"><div class="cuerpo"><h3>'+O.esc(x.titulo)+'</h3><dl><dt>Problema</dt><dd>'+O.esc(x.problema)+'</dd><dt>Opciones</dt><dd>'+O.esc(x.opciones)+'</dd></dl><p class="resultado">'+O.esc(x.resultado)+'</p></div></article>';}).join('');
   }
   function pintarFabricantes(m,d){
     m.className='fabricantes';

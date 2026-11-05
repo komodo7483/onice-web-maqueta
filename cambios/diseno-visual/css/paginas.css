@@ -11,7 +11,7 @@
 .hero p.sub{font-size:clamp(1.05rem,2vw,1.3rem);max-width:540px;margin-bottom:28px;color:var(--on-verde-claro)}
 .hero .acciones{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:0}
 .mecanismo{position:relative}
-.mecanismo svg{width:100%;height:auto;max-height:68vh;overflow:visible;filter:drop-shadow(0 18px 30px rgba(0,0,0,.28))}
+.mecanismo svg{width:100%;height:auto;max-height:68vh;overflow:visible}
 .engranaje{cursor:pointer;outline:none}
 .engranaje .diente{fill:var(--on-verde-oscuro);stroke:var(--on-verde-sobre-oscuro);stroke-width:2;stroke-linejoin:round;transition:fill .25s}
 .engranaje .radios line{stroke:var(--on-verde-sobre-oscuro);stroke-width:2;opacity:.5}

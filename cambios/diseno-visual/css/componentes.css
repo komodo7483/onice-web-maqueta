@@ -10,7 +10,8 @@
 .barra-sup .lema{font-family:var(--on-display);font-weight:900;font-size:.85rem;letter-spacing:.02em}
 /* Fila principal (queda fija al bajar) */
 #cabecera,#pie{display:contents}
-.fila-principal{position:sticky;top:0;z-index:50;background:var(--on-superficie);border-bottom:1px solid var(--on-linea)}
+.fila-wrap{position:sticky;top:0;z-index:50;pointer-events:none}
+.fila-principal{pointer-events:auto;background:var(--on-superficie);border-bottom:1px solid var(--on-linea)}
 .fila-principal .contenedor{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding-top:12px;padding-bottom:12px}
 .logo-cab{display:block;padding:4px}
 .logo-cab img{width:132px;height:auto}

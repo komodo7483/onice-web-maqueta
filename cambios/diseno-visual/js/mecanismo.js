@@ -53,17 +53,24 @@
     });
     host.appendChild(svg);host.appendChild(info);
     /* giro: velocidad inversamente proporcional a los dientes; se acelera al señalar y al hacer scroll */
-    var turbo=1,vel=1,ang=0,ult=performance.now(),sy=window.scrollY;
+    var turbo=1,vel=1,ang=0,ult=0,sy=window.scrollY,impulso=0,visible=true,corre=false;
     var quieto=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
     function pasa(t){
-      var dt=Math.min(.05,(t-ult)/1000);ult=t;
-      vel+= (turbo-vel)*Math.min(1,dt*4);
-      var ny=window.scrollY;ang+=(ny-sy)*.25;sy=ny;
-      ang+=dt*7*vel;
-      rot.forEach(function(r){var a=ang*(G[0].N/r.g.N)*r.sentido;r.nodo.setAttribute('transform','rotate('+a.toFixed(2)+')');});
+      if(!visible||document.hidden){corre=false;return;}
+      var dt=ult?Math.min(.04,(t-ult)/1000):.016;ult=t;
+      vel+=(turbo-vel)*Math.min(1,dt*4);
+      /* el scroll empuja con suavidad: se acumula y se disipa, sin saltos */
+      var ny=window.scrollY,dy=ny-sy;sy=ny;
+      impulso+=Math.max(-60,Math.min(60,dy))*.12;
+      impulso*=Math.pow(.02,dt);
+      ang+=dt*7*vel+impulso*dt*6;
+      rot.forEach(function(r){var a=ang*(G[0].N/r.g.N)*r.sentido;r.nodo.setAttribute('transform','rotate('+a.toFixed(1)+')');});
       requestAnimationFrame(pasa);
     }
-    if(!quieto)requestAnimationFrame(pasa);
+    function arranca(){if(!corre&&!quieto){corre=true;ult=0;requestAnimationFrame(pasa);}}
+    if('IntersectionObserver' in window)new IntersectionObserver(function(e){visible=e[0].isIntersecting;if(visible)arranca();}).observe(host);
+    document.addEventListener('visibilitychange',arranca);
+    arranca();
   }
   window.Mecanismo={pintar:pintar};
 })();

@@ -30,12 +30,12 @@
     return '<a class="salto" href="#contenido">Saltar al contenido</a>'+
     '<div class="aviso-maqueta">Maqueta · contenido de ejemplo</div>'+
     '<div class="barra-sup sobre-oscuro"><div class="contenedor"><div class="contacto-sup">'+telLink()+mailLink()+'</div><span class="lema">'+CONTACTO.lema+'</span></div></div>'+
-    '<div class="fila-principal"><div class="contenedor">'+
+    '<div class="fila-wrap"><div class="fila-principal"><div class="contenedor">'+
       '<a class="logo-cab" href="index.html" aria-label="Onice, inicio"><img class="completo" src="img/onice-logo-principal.svg" width="132" height="85" alt="Onice"><img class="iso" src="img/onice-isotipo.svg" width="48" height="31" alt="" aria-hidden="true"></a>'+
       '<button class="btn-menu" type="button" aria-expanded="false" aria-controls="menu-prin" data-menu>'+I.menu+'<span>Menú</span></button>'+
       buscador(false)+
       '<a class="tel-fila" href="tel:'+CONTACTO.telefonoEnlace+'" aria-label="Llamar al '+CONTACTO.telefono+'">'+I.tel+CONTACTO.telefono+'</a>'+
-    '</div></div>'+
+    '</div></div></div>'+
     '<nav class="menu-prin" id="menu-prin" aria-label="Principal"><ul>'+nav+'</ul></nav>';
   }
   function pie(){
@@ -85,12 +85,19 @@
     });
     if(document.querySelector('.fila-principal')&&!window.__cabReducida){
       window.__cabReducida=true;
-      var ajustar=function(){
-        var r=window.scrollY>140;
-        if(r!==document.body.classList.contains('cab-reducida')){document.body.classList.toggle('cab-reducida',r);}
-        var f=document.querySelector('.fila-principal');if(f)document.documentElement.style.setProperty('--alto-cab',f.offsetHeight+'px');
+      /* El contenedor fijo (fila-wrap) conserva la altura completa: al encogerse la fila no se mueve el contenido. */
+      var f=document.querySelector('.fila-principal'),w=document.querySelector('.fila-wrap'),espera=false;
+      var medir=function(){
+        if(!document.body.classList.contains('cab-reducida')){w.style.height='';w.style.height=f.offsetHeight+'px';}
+        document.documentElement.style.setProperty('--alto-cab',f.offsetHeight+'px');
       };
-      window.addEventListener('scroll',ajustar,{passive:true});window.addEventListener('resize',ajustar);ajustar();
+      var ajustar=function(){
+        espera=false;
+        var red=document.body.classList.contains('cab-reducida'),r=red?window.scrollY>90:window.scrollY>140;
+        if(r!==red){document.body.classList.toggle('cab-reducida',r);document.documentElement.style.setProperty('--alto-cab',f.offsetHeight+'px');}
+      };
+      window.addEventListener('scroll',function(){if(!espera){espera=true;requestAnimationFrame(ajustar);}},{passive:true});
+      window.addEventListener('resize',medir);medir();ajustar();
     }
     var bm=document.querySelector('[data-menu]');
     if(bm)bm.addEventListener('click',function(){var m=document.getElementById('menu-prin');var ab=m.classList.toggle('abierto');bm.setAttribute('aria-expanded',ab);});
